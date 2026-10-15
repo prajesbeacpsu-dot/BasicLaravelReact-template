@@ -148,7 +148,7 @@ export default function ProductsPage() {
     return (
         <AuthenticatedLayout
             header={
-                <h2 className="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200">
+                <h2 className="text-xl font-semibold leading-tight text-gray-800">
                     Products
                 </h2>
             }
@@ -157,13 +157,13 @@ export default function ProductsPage() {
 
             <div className="py-12">
                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                    <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800">
-                        <div className="p-6 text-gray-900 dark:text-gray-100">
+                    <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
+                        <div className="p-6 text-gray-900">
                             Welcome to the Products Page!
                         </div>
                     </div>
-                    <div className="overflow-hidden mt-5 bg-white shadow-sm sm:rounded-lg dark:bg-gray-800 flex">
-                        <div className="p-6 text-gray-900 dark:text-gray-100">
+                    <div className="overflow-hidden mt-5 bg-white shadow-sm sm:rounded-lg flex">
+                        <div className="p-6 text-gray-900">
                             <input
                                 type="text"
                                 name="product"
@@ -190,7 +190,7 @@ export default function ProductsPage() {
                             </button>
                         </div>
 
-                        <div className="p-6 text-gray-900 dark:text-gray-100">
+                        <div className="p-6 text-gray-900">
                             <table className="min-w-full border-collapse border border-gray-200">
                                 <thead>
                                     <tr>
@@ -229,7 +229,7 @@ export default function ProductsPage() {
                 show={isEditModalOpen}
                 onClose={() => setIsEditModalOpen(false)}
             >
-                <div className="p-6 text-gray-900 dark:text-gray-100">
+                <div className="p-6 text-gray-900">
                     <h2 className="text-lg font-bold mb-4">Edit Product</h2>
                     <input
                         type="text"
